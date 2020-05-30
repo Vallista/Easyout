@@ -1,0 +1,163 @@
+.default {
+  width: auto;
+  height: auto;
+  display: flex;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*
+	Direction
+*/
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+/*
+	Sort
+*/
+
+.left_top {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.left_center {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.left_bottom {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.center_top {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.center_center {
+  justify-content: center;
+  align-items: center;
+}
+
+.center_bottom {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.right_top {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.right_center {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.right_bottom {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.space_between {
+  justify-content: space-between;
+}
+
+/*
+	Sort - Reverse
+*/
+
+.r_left_top {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.r_left_center {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.r_left_bottom {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.r_center_top {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.r_center_center {
+  justify-content: center;
+  align-items: center;
+}
+
+.r_center_bottom {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.r_right_top {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.r_right_center {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.r_right_bottom {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/*
+	Wrap
+*/
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
+}
+
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.wrap-none {
+  flex-wrap: none;
+}
+
+/*
+	Overflow
+*/
+
+.auto {
+  overflow: auto;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.none {
+  overflow: none;
+}
